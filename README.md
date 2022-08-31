@@ -1,6 +1,40 @@
-<Week 1 - 220826>
-7562. S1 나이트의 이동
-2667. S1 단지번호 붙이기
-1992. S1 쿼드트리
-1780. S2 종이의 개수
-7795. S3  먹을 것인가 먹힐 것인가
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.08.26 </td>
+            <td rowspan=5> week1 </td>
+            <td> 7562 </td>
+            <td> S1 </td>
+            <td> <a href="https://www.acmicpc.net/problem/7562"> 나이트의 이동 </a> </td>
+        </tr>
+        <tr>
+            <td> 2667 </td>
+            <td> S1 </td>
+            <td> <a href="https://www.acmicpc.net/problem/2667"> 단지번호 붙이기 </a> </td>
+        </tr>
+        <tr>
+            <td> 1992 </td>
+            <td> S1 </td>
+            <td> <a href="https://www.acmicpc.net/problem/1992"> 쿼드트리 </a> </td>
+        </tr>
+        <tr>
+            <td> 1780 </td>
+            <td> S2 </td>
+            <td> <a href="https://www.acmicpc.net/problem/1780"> 종이의 개수 </a> </td>
+        </tr>
+        <tr>
+            <td> 7795 </td>
+            <td> S3 </td>
+            <td> <a href="https://www.acmicpc.net/problem/7795"> 먹을 것인가 먹힐 것인가 </a> </td>
+        </tr>
+    </tbody>
+</table>
