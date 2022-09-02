@@ -31,3 +31,4 @@ for _ in range(t):
 
 for res in result:
     print(res)
+    
