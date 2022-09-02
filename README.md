@@ -1,7 +1,10 @@
 ### 규칙
 - commit message : yyyy.mm.dd
-- week 별로 pull request
-[Notion Page](https://potential1205.notion.site/a96a516deedf43cfb8a2c119c4bc8ebb)
+- week 별로 pull request  
+
+### [Notion Page](https://potential1205.notion.site/a96a516deedf43cfb8a2c119c4bc8ebb)
+
+
 
 <table style="margin-left: auto; margin-right: auto;">
     <thead>
