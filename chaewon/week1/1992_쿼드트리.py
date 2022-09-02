@@ -10,7 +10,6 @@ for i in range(n):
 answer=''
 def divide(x,y,length):
     global answer
-
     match=graph[x][y]
     is_matched=True
     for i in range(x,x+length):
