@@ -1,4 +1,3 @@
-
 def recursive(x, y, n):
     
     img = arr[x][y]
