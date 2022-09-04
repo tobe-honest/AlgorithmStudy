@@ -20,24 +20,23 @@ move는 해당 분할된 원소들을 row,col 로 search 하는 길이 제한역
 """
 import sys
 
-
-def conquer(result, gmap, idxes, move):
-    ci, cj = idxes  # 시작 index
-    prev = gmap[ci][cj]  # 2중 for 문에서 이전 값을 나타내는 변수 (default : 가장 처음 search 하는 원소 값)
-    check = True  # 모든 수가 동일한지 체크하는 변수
-
+def check(gmap, idxes, move):
     # 정해진 범위에서 모든 수가 동일한지 확인 (문제에서 주어진 조건 확인)
+    ci, cj = idxes
+    prev = gmap[ci][cj]  # 2중 for 문에서 이전 값을 나타내는 변수 (default : 가장 처음 search 하는 원소 값)
     for i in range(ci, ci + move):
         for j in range(cj, cj + move):
             if i == ci and j == cj: continue  # 처음 값은 이전 값이 존재하지 않으므로 pass
-            if gmap[i][j] != prev: # 이전 값과 현재 값이 동일하지 않으면
-                check = False # check 는 False
-                break # 더이상 search 가 필요 없음
-            prev = gmap[i][j] # 만약 동일하다면 이전 값을 지금의 값으로 교체 -> 이후에 값이 계속해서 동일한지 확인하기 위함
-        if not check: # 만약 동일하지 않아서 break 를 통해 현재 위치로 왔다면
-            break # 또 다시 break 를 통해 2중 for문 밖으로 이동 -> 더이상 search 가 필요 없으므로
+            if gmap[i][j] != prev:  # 이전 값과 현재 값이 동일하지 않으면
+                return [False, prev]
+            prev = gmap[i][j]  # 만약 동일하다면 이전 값을 지금의 값으로 교체 -> 이후에 값이 계속해서 동일한지 확인하기 위함
 
-    if check: # 만약 search 한 모든 원소가 동일한 값이다.
+    return [True, prev]
+
+def conquer(result, gmap, idxes, move):
+    ci, cj = idxes # 시작 index
+    ch, prev = check(gmap, idxes, move)  # 모든 수가 동일한지 체크하는 변수
+    if ch: # 만약 search 한 모든 원소가 동일한 값이다.
         result[prev + 1] += 1 # 해당 수에 맞게 개수 증가
         return
     else: # 만약 동일하지 않다.
