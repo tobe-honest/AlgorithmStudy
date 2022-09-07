@@ -2,7 +2,7 @@
 - commit message : 해당 문제를 푼 날짜 yyyy.mm.dd
 - week 별로 pull request
 - 한 번에 add해서 commit 해도 됨
-
+- Merge시 title : 이름 n주차
 ### [Notion Page](https://potential1205.notion.site/a96a516deedf43cfb8a2c119c4bc8ebb)
 
 
