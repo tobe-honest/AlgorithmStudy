@@ -1,6 +1,6 @@
 # BaekJoon P1992 "쿼드트리" (분할정복, 재귀 | S1)
 """
-<유형: >
+<유형: 분할정복, 재귀>
 ---[실수]---
 for i in range(ci, ci + move):
     for j in range(cj, cj + move):
