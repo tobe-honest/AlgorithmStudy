@@ -4,7 +4,7 @@ input = sys.stdin.readline
 def binary_search(start, end):
     result = 0
 
-    while start <= end:
+    while start <= end: 
         mid = (start + end) // 2
         idx = 0
         cnt = 1    
