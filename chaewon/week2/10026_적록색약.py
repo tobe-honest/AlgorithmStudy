@@ -1,5 +1,6 @@
 from collections import deque
 n=int(input())
+
 graph=list()
 xgraph=list()
 for _ in range(n):
@@ -33,6 +34,7 @@ def bfs(graph,visited,x,y):
     return True,target
 
 visited=[[False for _ in range(n)] for _ in range(n)] 
+xvisited=[[False for _ in range(n)] for _ in range(n)] 
 
 result={'R':0,'G':0,'B':0}
 xresult={'R':0,'B':0} 
@@ -42,11 +44,8 @@ for i in range(n):
             is_area, color= bfs(graph,visited, i,j)
             if is_area:
                 result[color]+=1
-visited=[[False for _ in range(n)] for _ in range(n)] 
-for i in range(n):
-    for j in range(n):
-        if visited[i][j]==False:
-            is_area, color= bfs(xgraph,visited, i,j)
+        if xvisited[i][j]==False:
+            is_area, color= bfs(xgraph,xvisited, i,j)
             if is_area:
                 xresult[color]+=1
 
