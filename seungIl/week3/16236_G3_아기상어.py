@@ -18,6 +18,7 @@ BFS : 먹을 수 있는 물고기를 모두 search 하여 후보군을 생성하
 아기상어 -> 상하좌우 , 같거나 작은 물고기
           작은 물고기는 먹을 수 있음
           크기만큼 물고기의 개수를 먹으면 크기+1
+메모리 : 34612 | 시간 : 164
 """
 import heapq
 from collections import deque

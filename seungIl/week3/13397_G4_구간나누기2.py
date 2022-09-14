@@ -32,7 +32,6 @@ def check(n, li, diff):
     part_min = li[0]
 
     while True:
-        print(idx, '|', part_max, part_min,'|',cnt)
         # 구간 이어나가기
         if part_max - part_min <= diff:
             idx += 1
