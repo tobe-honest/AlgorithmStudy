@@ -40,10 +40,3 @@ print(cnt)
 
 for dic in sorted(dic.items(), key = lambda x : x[1]):
     print(dic[1])
-
-#  readline에서는 rstrip이 필요
-# dfs에서 무리 별 번호는 따로 카운트 가능
-# dictionary에서 lambda 표현식 사용법 이해
-# list comprehension으로 쉽게 입력 가능
-# dictionary.get으로 key가 있는지 확인 가능
-# 전역 변수는 함수 내부에서 global로 접근 가능
