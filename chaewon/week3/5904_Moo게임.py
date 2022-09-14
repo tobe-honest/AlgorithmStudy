@@ -38,4 +38,5 @@ k-=1 # nk 배열 자체가 원래 [3,10,25 ..] 와 같이 문제에서 주어진
 
 k_len=nk[k] # 10 # s(k)의 전체 길이
 partition=[k_len,k_len+k+3,k_len*2+k+3] # [10 15 25] # s(k-1)의 끝 index , 앞 index + 추가된 moo 의 끝 index, 앞 index + s(k-1)의 끝 index# ([10 15 25],2,11)
-print(find_moo(partition,k,n))
+answer=find_moo(partition,k,n)
+print(answer)
