@@ -35,13 +35,15 @@ def solution(n, c, houses):
         # print()
 
         # 현재 최적의 거리후보가 실제 최적의 거리인지 확인 (설치된 공유기의 개수를 통해)
-        if cnt >= c : # 후보 변경 -> 최적의 거리가 늘어나야 함 -> 공유기의 개수를 줄이기 위해
+        if cnt > c : # 후보 변경 -> 최적의 거리가 늘어나야 함 -> 공유기의 개수를 줄이기 위해
             min_dis = mid + 1
-            result = mid # ?
         elif cnt < c: # 후보 변경 -> 최적의 거리가 줄어야 함 -> 공유기의 개수를 늘리기 위해
             max_dis = mid - 1
+        else: # cnt == c # 유력한 후보. but, 개수가 동일하더라도 거리가 더 늘릴 수 있는 여지가 있으므로 한번더 체크
+            result = mid # 여기서 중요한 건 이 값을 기록해서 더 늘렸다가 안되는 경우를 대비
+            min_dis = mid + 1
 
-    return result # ?
+    return result
 
 
 if __name__ == '__main__':
