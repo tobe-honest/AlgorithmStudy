@@ -23,6 +23,7 @@ def binary_search(start, end):
             result = mid
 
     print(result)
+    return
 
 n, c = map(int, input().split())
 x = sorted([int(input().rstrip()) for _ in range(n)])
