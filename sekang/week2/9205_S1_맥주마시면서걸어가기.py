@@ -8,7 +8,7 @@ def bfs(start_x, start_y, end_x, end_y):
     
     while queue:
         x, y = queue.popleft()
-        
+
         # 성공 조건
         len_x, len_y = abs(x - end_x), abs(y - end_y)
 
