@@ -150,22 +150,22 @@
         </tr>
         <tr>
             <td> 9205 </td>
-            <td> S1 </td>
+            <td> G5 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/1374"> 강의실  </a> </td>
         </tr>
         <tr>
             <td> 2110 </td>
-            <td> G4 </td>
+            <td> G5 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/2447"> 별 찍기 - 10 </a> </td>
         </tr>
         <tr>
             <td> 2644 </td>
-            <td> S2 </td>
+            <td> G3 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/2206"> 벽 부수고 이동하기 </a> </td>
         </tr>
         <tr>
             <td> 1074 </td>
-            <td> S1 </td>
+            <td> S2 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/2805"> 나무 자르기 </a> </td>
         </tr>
     </tbody>
