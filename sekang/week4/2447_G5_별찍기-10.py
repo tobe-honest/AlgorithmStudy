@@ -7,18 +7,19 @@ def recursive(star, x, y, N, flag):
     
     if N == 3:
         if flag == 4:
-            for i in range(x, x + N):
-                for j in range(y, y + N):
-                    star[i][j] = ' '
+            star[x] += '   '
+            star[x+1] += '   '
+            star[x+2] += '   '
         else:
-            star[x+1][y+1] = ' '
+            star[x] += '***'
+            star[x+1] += '* *'
+            star[x+2] += '***'
         return
 
     else:
         if flag == 4:
             for i in range(x, x + N):
-                for j in range(y, y + N):
-                    star[i][j] = ' '
+                star[i] += ' ' * N
             return
 
     recursive(star, x, y, step, 0)
@@ -34,13 +35,8 @@ def recursive(star, x, y, N, flag):
     recursive(star, x + step * 2, y + step * 2, step, 8)
 
 N = int(input())
-star = [['*'] * N for _ in range(N)]
+star = ['' for _ in range(N)]
 recursive(star, 0, 0, N, 0)
 
-for i in range(N):
-    for j in range(N):
-        print(star[i][j], end="")
-    print()
-
-# for s in star:
-#     print(s)
+for s in star:
+    print(s)
