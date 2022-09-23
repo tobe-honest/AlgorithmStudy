@@ -64,7 +64,7 @@
             <td rowspan=5> week2 </td>
             <td> 16438 </td>
             <td> G4 </td>
-            <td> <a target='_blank' href="https://www.acmicpc.net/problem/16438"> 원숭이 스포츠 </a> </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1629"> 곱셈 </a> </td>
         </tr>
         <tr>
             <td> 9205 </td>
@@ -85,6 +85,88 @@
             <td> 1074 </td>
             <td> S1 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/1074"> Z </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.09.09 </td>
+            <td rowspan=5> week3 </td>
+            <td> 16438 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/16236"> 아기 상어 </a> </td>
+        </tr>
+        <tr>
+            <td> 9205 </td>
+            <td> S1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1912"> 연속합  </a> </td>
+        </tr>
+        <tr>
+            <td> 2110 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/13397"> 구간 나누기 2 </a> </td>
+        </tr>
+        <tr>
+            <td> 2644 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/7576"> 토마토 </a> </td>
+        </tr>
+        <tr>
+            <td> 1074 </td>
+            <td> S1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/5904"> Moo 게임 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.09.17 </td>
+            <td rowspan=5> week4 </td>
+            <td> 16438 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14502"> 연구소 </a> </td>
+        </tr>
+        <tr>
+            <td> 9205 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1374"> 강의실  </a> </td>
+        </tr>
+        <tr>
+            <td> 2110 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2447"> 별 찍기 - 10 </a> </td>
+        </tr>
+        <tr>
+            <td> 2644 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2206"> 벽 부수고 이동하기 </a> </td>
+        </tr>
+        <tr>
+            <td> 1074 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2805"> 나무 자르기 </a> </td>
         </tr>
     </tbody>
 </table>
