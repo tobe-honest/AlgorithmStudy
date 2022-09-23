@@ -23,6 +23,3 @@ N, M = map(int, input().split())
 trees = list(map(int, input().split()))
 trees.sort()
 binary_search(trees, 0, trees[-1])
-
-# 시간...
-# max는 왜 안되냐
