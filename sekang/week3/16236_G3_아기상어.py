@@ -1,20 +1,20 @@
 from collections import deque
 import copy
 def bfs(i, j):
-    Q = deque()
-    Q.append([i, j])
+    queue = deque()
+    queue.append([i, j])
     visited = [[0] * N for _ in range(N)]
     dist = copy.deepcopy(visited)
     eat = []
     visited[i][j] = 1
 
-    while Q:
-        x, y = Q.popleft() # 현 위치(i, j와 다름)
+    while queue:
+        x, y = queue.popleft() # 현 위치(i, j와 다름)
         for k in range(4):
             nx, ny = x + dx[k], y + dy[k]
             if 0 <= nx < N and 0 <= ny < N and visited[nx][ny] == 0:
                 if shark[nx][ny] <= shark[i][j] or shark[nx][ny] == 0: # 이동 가능한 경우
-                    Q.append([nx, ny])
+                    queue.append([nx, ny])
                     visited[nx][ny] = 1
                     dist[nx][ny] = dist[x][y] + 1
                 if shark[nx][ny] < shark[i][j] and shark[nx][ny] != 0: # 먹을 수 있는 경우 (일단 저장)
@@ -45,17 +45,3 @@ while True:
     cnt += dist
 
 print(cnt)
-
-
-# bfs(shark, start, end, position, 0, 0, 2)
-
-# 먹을 수 있는 조건 : 자신의 크기보다 작은 경우만
-# 지나갈 수 있는 조건 : 자신의 크기보다 작거나 같은 경우
-# 이동 조건 
-# 1) 더이상 못먹으면 엄마 상어에게 도움을 요청
-# 2) 먹을 수 있는 물고기가 1마리 -> 해당 물고기 먹으러 감
-# 3) 먹을 수 있는 물고기가 1마리 이상 -> 가장 가까운 물고기 먹으러 감
-# 3-1) 거리 계산 :  지나가야 하는 칸의 최소값
-# 3-2) 거리 동일 : 가장 위 -> 가장 좌
-# 4) 성장 조건 : 자신의 크기 수만큼 물고기 먹으면 크기 증가
-# 이동 시간 : 1초 -> cnt == 이동시간
