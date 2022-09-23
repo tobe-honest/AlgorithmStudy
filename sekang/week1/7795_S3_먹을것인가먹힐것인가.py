@@ -1,5 +1,6 @@
 import sys
 input=sys.stdin.readline
+
 def binary_search(idx, start, end):
     while start <= end:
         mid = (start + end) // 2
