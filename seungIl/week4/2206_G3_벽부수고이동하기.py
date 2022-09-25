@@ -30,7 +30,6 @@ Q
 ---[비고]---
 메모리 : 145036 | 시간 : 4100
 """
-
 import sys
 from collections import deque
 
