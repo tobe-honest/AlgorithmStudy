@@ -170,3 +170,43 @@
         </tr>
     </tbody>
 </table>
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.09.17 </td>
+            <td rowspan=5> week4 </td>
+            <td> 16438 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/11404"> 플로이드 </a> </td>
+        </tr>
+        <tr>
+            <td> 9205 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1946"> 여행 가자  </a> </td>
+        </tr>
+        <tr>
+            <td> 2110 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1012"> 유기농 배추 </a> </td>
+        </tr>
+        <tr>
+            <td> 2644 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/12851"> 숨바꼭질2</a> </td>
+        </tr>
+        <tr>
+            <td> 1074 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1654"> 랜선 자르기 </a> </td>
+        </tr>
+    </tbody>
+</table>
