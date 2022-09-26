@@ -182,8 +182,8 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5> 2022.09.17 </td>
-            <td rowspan=5> week4 </td>
+            <td rowspan=5> 2022.09.24 </td>
+            <td rowspan=5> week5 </td>
             <td> 16438 </td>
             <td> G4 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/11404"> 플로이드 </a> </td>
