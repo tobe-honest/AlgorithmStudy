@@ -1,8 +1,8 @@
 from collections import deque
 import sys
 
-dx = [-1,1,0,0]
-dy = [0,0,-1,1]
+dx = [1,0,-1,0]
+dy = [0,1,0,-1]
 
 def check():
     visited = [[[0 for i in range(2)] for j in range(M)] for k in range(N)]
@@ -41,3 +41,6 @@ for i in range(N):
     line=[]
 
 print(check())
+
+# 베스트 코드
+# 30031405	mod96	2206	벽 부수고 이동하기	맞았습니다!!	55012	2780
