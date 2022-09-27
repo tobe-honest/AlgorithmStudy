@@ -17,6 +17,7 @@ def search(now, board, l):
             if 0 <= nr < l and 0 <= nc < l and not board[nr][nc]:
                 q.append([nr, nc])
                 board[nr][nc] = board[r][c] + 1
+
             if [nr, nc] == target:
                 print(board[nr][nc]-1)
                 return

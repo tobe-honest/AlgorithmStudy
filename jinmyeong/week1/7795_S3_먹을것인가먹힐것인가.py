@@ -23,6 +23,7 @@ def search(A, B):
         ## 인덱스는 0부터 시작이니까 +1 해줌
         cnt += right + 1
     return cnt
+
 T = int(input())
 for _ in range(T):
     N_A, N_B = map(int, input().split())
