@@ -1,6 +1,7 @@
 def moo(k,start,end,wing,body):
 
     target = start + wing
+
     if target == N:
         print('m')
         return
@@ -10,7 +11,6 @@ def moo(k,start,end,wing,body):
         moo(k-1,target+body,end,(wing-body+1)//2,body-1)
     else:
         print('o')
-        return
     
 
 N = int(input())
