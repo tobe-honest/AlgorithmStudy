@@ -42,7 +42,7 @@ def possible(n, start, target, graph):
     return False
 
 
-def solution(n, m, table, move):
+def solution(n, table, move):
     graph = defaultdict(set)
     for i in range(n):
         for j in range(n):
@@ -63,4 +63,4 @@ if __name__ == '__main__':
     M = int(input())
     inputs = [[*map(int, sys.stdin.readline().split())] for _ in range(N)]
     targets = [*map(int, sys.stdin.readline().split())]
-    print(solution(N, M, inputs, targets))
+    print(solution(N, inputs, targets))
