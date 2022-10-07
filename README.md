@@ -210,3 +210,44 @@
         </tr>
     </tbody>
 </table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.10.01 </td>
+            <td rowspan=5> week6 </td>
+            <td> 16438 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/17144"> 미세먼지 안녕! </a> </td>
+        </tr>
+        <tr>
+            <td> 9205 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14890"> 경사로  </a> </td>
+        </tr>
+        <tr>
+            <td> 2110 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1753"> 최단경로 </a> </td>
+        </tr>
+        <tr>
+            <td> 2644 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14226"> 이모티콘 </a> </td>
+        </tr>
+        <tr>
+            <td> 1074 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1477"> 휴게소 세우기 </a> </td>
+        </tr>
+    </tbody>
+</table>
