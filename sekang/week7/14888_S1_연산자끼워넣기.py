@@ -53,10 +53,3 @@ if __name__ == '__main__':
     op = list(permutations(op, N-1))
     # print(op)
     solve(num, op)
-
-# 순열, 조합 -> 재귀 ver, 반복문 ver 모두 연습
-# 파이참에서는 전역변수 어디서 쓰나
-# 구현, 시뮬레이션 삼성에서 제출한 문제 다 못풀면 어떤식으로 푸는지라도 확인하고 가기
-
-# https://cotak.tistory.com/70
-# https://kimjingo.tistory.com/205
