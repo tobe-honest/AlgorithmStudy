@@ -9,7 +9,7 @@ def check():
     while(queue):
         x,level = queue.popleft()
         visit[x] = True
-        
+ 
         if level>min_level:
             continue
 

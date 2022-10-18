@@ -1,15 +1,8 @@
-
+import sys
 INF = int(1e9)
-
 N = int(input())
 M = int(input())
-
-board = []
-for i in range(N):
-    line = list(map(int,input().split()))
-    board.append(line)
-    line = []
-
+board = [[*map(int, sys.stdin.readline().split())] for _ in range(N)]
 path = list(map(int,input().split()))
 
 for i in range(N):
@@ -25,6 +18,8 @@ for k in range(N):
     for a in range(N):
         for b in range(N):
             board[a][b] = min(board[a][b], board[a][k] + board[k][b])
+
+
 flag=0
 start = path[0]-1
 
