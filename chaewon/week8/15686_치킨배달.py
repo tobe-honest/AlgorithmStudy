@@ -12,7 +12,7 @@ for i in range(n):
     for j in range(len(tmp)):
         if tmp[j]==1: #home
             home.append([i,j])
-        elif tmp[j]==2: # chicken # j 라고함;;
+        elif tmp[j]==2: # chicken
             chicken.append([i,j])
 
 distance=list()
@@ -24,7 +24,6 @@ for h in home:
         tmp.append(abs(chicken_x-home_x)+abs(chicken_y-home_y))
     distance.append(tmp)
 
-answer=int(1e9)
 chicken_distance=list()
 can=list(combinations(range(len(chicken)), m)) #[(0,1,2),(0,3,4)] # 남길 치킨집
 mins=list()
