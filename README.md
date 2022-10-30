@@ -333,3 +333,44 @@
         </tr>
     </tbody>
 </table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.10.22 </td>
+            <td rowspan=5> week9 </td>
+            <td> 1043 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1043"> 거짓말 </a> </td>
+        </tr>
+        <tr>
+            <td> 2559 </td>
+            <td> S3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2559"> 수열 </a> </td>
+        </tr>
+        <tr>
+            <td> 2559 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2559"> 로또 </a> </td>
+        </tr>
+        <tr>
+            <td> 1967 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1967"> 트리의 지름 </a> </td>
+        </tr>
+        <tr>
+            <td> 12100 </td>
+            <td> G2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/12100"> 2048 (Easy) </a> </td>
+        </tr>
+    </tbody>
+</table>
