@@ -374,3 +374,44 @@
         </tr>
     </tbody>
 </table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.10.27 </td>
+            <td rowspan=5> week10 </td>
+            <td> 2589 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2589"> 보물섬 </a> </td>
+        </tr>
+        <tr>
+            <td> 14500 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14500"> 테트로미노  </a> </td>
+        </tr>
+        <tr>
+            <td> 1759 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1759"> 암호 만들기 </a> </td>
+        </tr>
+        <tr>
+            <td> 22857 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/22857"> 가장 긴 짝수 연속한 부분 수열 (small) </a> </td>
+        </tr>
+        <tr>
+            <td> 9372 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/9372"> 상근이의 여행 </a> </td>
+        </tr>
+    </tbody>
+</table>
