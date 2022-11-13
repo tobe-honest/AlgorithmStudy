@@ -16,6 +16,7 @@ def move(board, dir):
                     else: # 숫자가 다르면 해당 위치 서로 이동
                         top -= 1
                         board[i][top] = tmp
+                        
     elif dir == 1: # 서 (서에서 동으로 이동)
         for i in range(n):
             top = 0
@@ -31,6 +32,7 @@ def move(board, dir):
                     else: # 숫자가 다르면 해당 위치 우로 이동
                         top += 1
                         board[i][top] = tmp
+
     elif dir == 2:  # 남 (남에서 북으로 이동)
         for j in range(n):
             top = n - 1
