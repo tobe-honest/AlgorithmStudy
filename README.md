@@ -415,3 +415,44 @@
         </tr>
     </tbody>
 </table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.11.05 </td>
+            <td rowspan=5> week11 </td>
+            <td> 23291 </td>
+            <td> P5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/23291"> 어항 정리 </a> </td>
+        </tr>
+        <tr>
+            <td> 3980 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/3980"> 선발 명단  </a> </td>
+        </tr>
+        <tr>
+            <td> 5052 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/5052"> 전화번호 목록 </a> </td>
+        </tr>
+        <tr>
+            <td> 1987 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1987"> 알파벳 </a> </td>
+        </tr>
+        <tr>
+            <td> 16472 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/16472"> 고냥이 </a> </td>
+        </tr>
+    </tbody>
+</table>
