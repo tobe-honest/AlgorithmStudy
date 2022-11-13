@@ -19,7 +19,7 @@ else:
 
 visit = [False for i in range(M)]
 
-for p in range(2):
+for p in range(M):
     for i in range(M):
         if visit[i] == True:
             continue

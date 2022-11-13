@@ -25,7 +25,7 @@ def check():
             queue.append([kx2,level+1])
         if 0<= kx3 <= 100000 and visit[kx3] == False:
             queue.append([kx3,level+1])
-   
+
 N,K = map(int,input().split())
 min_cnt, min_level = 0, 100000
 check()

@@ -3,6 +3,7 @@ def check(start,end):
         mid = (start+end) // 2
         cnt=0
         for cable in lst:
+            if mid==0: mid = 1
             cnt = cnt + cable//mid
 
         if cnt >= N:

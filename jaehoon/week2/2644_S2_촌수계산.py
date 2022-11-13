@@ -1,6 +1,7 @@
 def check(x,level):
     global flag
     visited[x] = True
+    
     if x == end:
         print(level)
         flag=1
