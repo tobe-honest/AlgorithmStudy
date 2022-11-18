@@ -13,11 +13,7 @@ if __name__ == '__main__':
         visited[x][y] = True # 방문 위치
         
         for i in range(g): # 세대 범위까지 반복
-            temp = [(m + 1) % 4 for m in mv[::-1]]
-            # print(mv[::-1])
-            # print(mv)
-            # print(temp)
-            mv += temp
+            mv += [(m + 1) % 4 for m in mv[::-1]] # mv += temp
     
         for i in mv:
             nx, ny = x + dx[i], y + dy[i]
