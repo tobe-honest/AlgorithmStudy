@@ -1,7 +1,9 @@
 N = int(input())
 M = int(input())
 
-board = [[999999] * (N + 1) for _ in range(N + 1)]
+INF = int(1e9)
+
+board = [[INF] * (N + 1) for _ in range(N + 1)]
 
 for a in range(1, N + 1):
     for b in range(1, N + 1):
@@ -10,7 +12,6 @@ for a in range(1, N + 1):
 
 for i in range(M):
     a,b,c = map(int,input().split())
-
     if board[a][b] == 0:
         board[a][b] = c
     elif board[a][b] > c:
@@ -23,7 +24,7 @@ for k in range(1, N + 1):
 
 for i in range(1,N+1):
     for j in range(1,N+1):
-        if board[i][j] == 999999:
+        if board[i][j] == INF:
             print(0,end=' ')
         else:
             print(board[i][j],end=' ')

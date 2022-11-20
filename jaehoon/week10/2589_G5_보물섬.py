@@ -27,7 +27,6 @@ board = []
 for i in range(N):
     board.append(list(input()))
 
-
 can = []
 for i in range(N):
     for j in range(M):

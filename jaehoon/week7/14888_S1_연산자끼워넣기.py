@@ -19,9 +19,6 @@ for i in range(4):
         oper[i]-=1
 
 pos = list(set(permutations(oper_str,N-1)))
-
-answer = []
-
 for i in range(len(pos)):
     result = nums[0]
     for j in range(N-1):
