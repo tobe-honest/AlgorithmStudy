@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(1000000)
+
 def check(v):
     global cnt
 
@@ -27,6 +30,3 @@ for t in range(T):
         if visit[i] == False:
             check(i)
     print(N-cnt)
-
-            
-

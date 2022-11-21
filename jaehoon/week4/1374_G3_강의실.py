@@ -18,4 +18,3 @@ for i in range(N):
         del lst_end[0]
 
 print(cnt)
-

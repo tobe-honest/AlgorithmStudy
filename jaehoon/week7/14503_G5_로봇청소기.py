@@ -48,8 +48,6 @@ def back(y,x,d):
         return y,x,False
 
 
-
-
 def check(y,x,d):
     result = 0
 

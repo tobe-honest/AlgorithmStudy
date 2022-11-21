@@ -11,14 +11,13 @@ if N==1:
     exit()
 
 while start<end:
-    if lst[start] + lst[end] < x:
-        start+=1
-    elif lst[start] + lst[end] > x:
+    if lst[start] + lst[end] > x:
         end-=1
+    elif lst[start] + lst[end] < x:
+        start+=1
     elif lst[start] + lst[end] == x:
         start+=1
         end-=1
         cnt+=1
-
 print(cnt)
 
