@@ -75,7 +75,7 @@ def check1(board):
 
     for i in range(R):
         for j in range(C):
-            board[i][j] += origin[i][j]
+            board[i][j] = board[i][j] + origin[i][j]
     
     return board
 

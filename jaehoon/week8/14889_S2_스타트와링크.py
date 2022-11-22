@@ -1,15 +1,12 @@
 import sys
 from itertools import combinations
-
 N = int(input())
 board,min = [], int(1e9)
 for i in range(N):
     board.append(list(map(int,sys.stdin.readline().split())))
-
 items = [i for i in range(1,N+1)]
 lst = list(combinations(items,N//2))
 cases = [value for value in lst if value[0] == 1]
-
 for case in cases:
     start,link = 0,0
     B = set(items) -set(case)
@@ -28,4 +25,3 @@ for case in cases:
         min = gap
 
 print(min)
-        

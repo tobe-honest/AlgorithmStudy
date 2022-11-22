@@ -17,6 +17,7 @@ def up(board,N):
                 else:
                     p += 1
                     board[p][j] = tmp
+
     return board
 
 def down(board,N):

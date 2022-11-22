@@ -19,7 +19,6 @@ def check(lst):
                 else:
                     return False
 
-
             else: # 오르막길
                 if 0<= i-L+1:
                     std = lst[i]
