@@ -30,9 +30,10 @@ def look(x, y, Dir, temp):
                 break
 
 def dfs(gmap, cnt):
-    temp = deepcopy(gmap)
+    # temp = deepcopy(gmap)
 
     if cnt == num:
+        temp = [g[:] for g in gmap]
         global answer
         total = 0
         for tmp in temp:
@@ -42,9 +43,11 @@ def dfs(gmap, cnt):
 
     x, y, cctv = camera[cnt]
     for D in Dir[cctv]:
+        temp = [g[:] for g in gmap]
         look(x, y, D, temp)
         dfs(temp, cnt + 1)
-        temp = deepcopy(gmap)
+        
+        # temp = deepcopy(gmap)
         # print_gmap(temp)
     
 if __name__ == '__main__':
