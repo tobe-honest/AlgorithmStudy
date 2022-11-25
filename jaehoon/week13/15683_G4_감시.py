@@ -38,7 +38,7 @@ def solution(board,depth):
     y,x,num = cctv[depth]
 
     for ds in mode[num]:
-        temp = copy.deepcopy(board)
+        temp = [ b[:] for b in board]
         observe(temp,ds,y,x)
         solution(temp,depth+1)
 

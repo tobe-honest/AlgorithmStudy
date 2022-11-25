@@ -8,21 +8,21 @@ def solution(depth):
         return
 
     for i in range(n):
-        if visit[i] == 1:
-            continue
+        # if visit[i] == 1:
+        #     continue
 
         queen[depth] = i
-        
         flag = 0
+
         for j in range(depth):
             if queen[depth] == queen[j] or abs(depth-j) == abs(queen[depth] - queen[j]):
                 flag = 1
                 break
 
         if flag == 0:
-            visit[i] = 1
+            #visit[i] = 1
             solution(depth+1)
-            visit[i] = 0
+            #visit[i] = 0
 
 if __name__ == "__main__":
     n = int(input())
@@ -31,3 +31,5 @@ if __name__ == "__main__":
     visit = [0] * n
     solution(0)
     print(result)
+
+
