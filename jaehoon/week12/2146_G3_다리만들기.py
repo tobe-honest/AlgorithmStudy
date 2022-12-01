@@ -1,35 +1,34 @@
 from collections import deque
+import sys
 
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]
 
-def bfs(i,j):
-    global num
+def bfs(i,j,num):
     queue = deque([[i,j]])
     visit[i][j] = True
     board[i][j] = num
-
+    position = []
     while queue:
         y,x = queue.popleft()
+        position.append([y,x])
         for i in range(4):
             ky,kx = y + dy[i], x + dx[i]
-            if ky<0 or kx<0 or ky>=n or kx >= n or visit[ky][kx]==True or board[ky][kx]==0:
-                continue
-            board[ky][kx] = num
-            visit[ky][kx] = True
-            queue.append([ky, kx])
+            if 0 <= kx < n and 0 <= ky < n and visit[ky][kx] == False and board[ky][kx] != 0:
+                board[ky][kx] = num
+                visit[ky][kx] = True
+                queue.append([ky, kx])
 
+    return position
 
-def bfs2(val):
+def bfs2(val,position):
     global answer
     dist = [[-1 for j in range(n)] for i in range(n)] # 거리가 저장될 배열
     queue = deque()
 
-    for i in range(n):
-        for j in range(n):
-            if board[i][j] == val:
-                queue.append([i, j])
-                dist[i][j] = 0
+    for y,x in position:
+        queue.append([y, x])
+        dist[y][x] = 0
 
     while queue:
         y,x = queue.popleft()
@@ -48,20 +47,19 @@ def bfs2(val):
 
 
 n = int(input())
-board = []
-for _ in range(n):
-    board.append(list(map(int,input().split())))
-
+board = [list(map(int,sys.stdin.readline().split())) for i in range(n)]
 visit = [[False for i in range(n)] for j in range(n)]
+
+position = []
 num=1
+
 for i in range(n):
     for j in range(n):
         if visit[i][j] == False and board[i][j] == 1:
-            bfs(i,j)
+            position.append(bfs(i,j,num))
             num+=1
             
-
 answer = 200
-for i in range(1,num+1):
-    bfs2(i)
+for i in range(1,num):
+    bfs2(i,position[i-1])
 print(answer)

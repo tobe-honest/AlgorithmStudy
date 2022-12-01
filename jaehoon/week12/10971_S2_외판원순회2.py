@@ -10,6 +10,9 @@ def solve(depth,v):
         if visited[i]:
             continue
         
+        if result < sum(ans):
+            return
+
         if board[v][i] != 0:
             visited[i] = 1
             ans.append(board[v][i])

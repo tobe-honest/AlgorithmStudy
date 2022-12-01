@@ -1,29 +1,29 @@
-n,d,k,c = map(int,input().split())
-lst = []
-for _ in range(n):
-    lst.append(int(input()))
+import sys
+
+n,d,k,c = map(int,sys.stdin.readline().split())
+lst = [int(sys.stdin.readline()) for _ in range(n)]
 
 result = 0
 count = [0] * d
-cnt= 0
-v = []
-for i in range(len(lst)+k):
-    idx = i%len(lst)
+uni = set()
 
-    if len(v) < k:
-        v.append(lst[idx])
+for i in range(n+k):
+    idx = i%n
+
+    if idx < k:
         count[lst[idx]-1]+=1
+        uni.add(lst[idx])
     
-    elif len(v) == k:
-        val = v.pop(0)
-        v.append(lst[idx])
-        count[val-1]-=1
-        count[lst[idx]-1]+=1
-    
-    if count[c-1] == 0:
-        result = max(result,d-count.count(0)+1)
     else:
-        result = max(result,d-count.count(0))
-
+        count[lst[idx-k]-1]-=1
+        if count[lst[idx-k]-1] == 0:
+            uni.remove(lst[idx-k])
+        count[lst[idx]-1]+=1
+        uni.add(lst[idx])
+    
+        if count[c-1] == 0:
+            result = max(result,len(uni)+1)
+        else:
+            result = max(result,len(uni))
 
 print(result)
