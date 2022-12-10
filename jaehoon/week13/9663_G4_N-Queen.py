@@ -20,9 +20,9 @@ def solution(depth):
                 break
 
         if flag == 0:
-            #visit[i] = 1
+            visit[i] = 1
             solution(depth+1)
-            #visit[i] = 0
+            visit[i] = 0
 
 if __name__ == "__main__":
     n = int(input())
