@@ -456,3 +456,44 @@
         </tr>
     </tbody>
 </table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.11.12 </td>
+            <td rowspan=5> week12 </td>
+            <td> 15685 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/15685"> 드래곤 커브 </a> </td>
+        </tr>
+        <tr>
+            <td> 2146 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2146"> 다리 만들기  </a> </td>
+        </tr>
+        <tr>
+            <td> 1991 </td>
+            <td> S1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1991"> 트리 순회 </a> </td>
+        </tr>
+        <tr>
+            <td> 2531 </td>
+            <td> S1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2531"> 회전 초밥 </a> </td>
+        </tr>
+        <tr>
+            <td> 10971 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/10971"> 외판원 순회 2 </a> </td>
+        </tr>
+    </tbody>
+</table>
