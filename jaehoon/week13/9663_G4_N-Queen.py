@@ -8,8 +8,8 @@ def solution(depth):
         return
 
     for i in range(n):
-        # if visit[i] == 1:
-        #     continue
+        if visit[i] == 1:
+            continue
 
         queen[depth] = i
         flag = 0

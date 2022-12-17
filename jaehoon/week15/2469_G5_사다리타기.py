@@ -18,7 +18,6 @@ for i in range(m):
     else:
         board2.append(line)
     
-
 while board1:
     line = board1.pop(0)
     for i in range(n-1):
