@@ -1,4 +1,8 @@
-### 규칙
+## 알고리즘 스터디
+- 기간 : 2022.09 - 2022.12
+- 참가자 : [이재훈](https://github.com/potential1205), [박승일](https://github.com/bob8dod), [김진명](https://github.com/tobe-honest), [이채원](https://github.com/chae52), [오세강](https://github.com/ohsekang)
+
+## 규칙
 - commit message : 해당 문제를 푼 날짜 yyyy.mm.dd
 - week 별로 pull request
 - 한 번에 add해서 commit 해도 됨
@@ -6,7 +10,7 @@
 ### [Notion Page](https://potential1205.notion.site/a96a516deedf43cfb8a2c119c4bc8ebb)
 
 
-
+## 문제
 <table style="margin-left: auto; margin-right: auto;">
     <thead>
         <tr>
@@ -494,6 +498,252 @@
             <td> 10971 </td>
             <td> S2 </td>
             <td> <a target='_blank' href="https://www.acmicpc.net/problem/10971"> 외판원 순회 2 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.11.19 </td>
+            <td rowspan=5> week13 </td>
+            <td> 2573 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2573"> 빙산 </a> </td>
+        </tr>
+        <tr>
+            <td> 2467 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2467"> 용액  </a> </td>
+        </tr>
+        <tr>
+            <td> 15683 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/15683"> 감시 </a> </td>
+        </tr>
+        <tr>
+            <td> 9663 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/9663"> N-Queen </a> </td>
+        </tr>
+        <tr>
+            <td> 11725 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/11725"> 트리의 부모 찾기 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.11.26 </td>
+            <td rowspan=5> week14 </td>
+            <td> 17822 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/17822"> 원판 돌리기 </a> </td>
+        </tr>
+        <tr>
+            <td> 17471 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/17471"> 게리맨더링  </a> </td>
+        </tr>
+        <tr>
+            <td> 1806 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1806"> 부분합 </a> </td>
+        </tr>
+        <tr>
+            <td> 1068 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1068"> 트리 </a> </td>
+        </tr>
+        <tr>
+            <td> 2580 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2580"> 스도쿠 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.12.03 </td>
+            <td rowspan=5> week15 </td>
+            <td> 6987 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/6987"> 월드컵 </a> </td>
+        </tr>
+        <tr>
+            <td> 14675 </td>
+            <td> S1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14675"> 단절점과 단절선  </a> </td>
+        </tr>
+        <tr>
+            <td> 2469 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2469"> 사다리 타기 </a> </td>
+        </tr>
+        <tr>
+            <td> 17142 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/17142"> 연구소 3 </a> </td>
+        </tr>
+        <tr>
+            <td> 1484 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1484"> 다이어트 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.12.10 </td>
+            <td rowspan=5> week16 </td>
+            <td> 1182 </td>
+            <td> S2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1182"> 부분수열의 합 </a> </td>
+        </tr>
+        <tr>
+            <td> 3079 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/3079"> 입국심사  </a> </td>
+        </tr>
+        <tr>
+            <td> 14499 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/14499"> 주사위 굴리기 </a> </td>
+        </tr>
+        <tr>
+            <td> 1197 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1197"> 최소 스패닝 트리 </a> </td>
+        </tr>
+        <tr>
+            <td> 1520 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1520"> 내리막 길 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.12.17 </td>
+            <td rowspan=5> week17 </td>
+            <td> 1937 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1937"> 욕심쟁이 판다 </a> </td>
+        </tr>
+        <tr>
+            <td> 11437 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/11437"> LCA  </a> </td>
+        </tr>
+        <tr>
+            <td> 2469 </td>
+            <td> G2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2469"> 색종이 붙이기 </a> </td>
+        </tr>
+        <tr>
+            <td> 12015 </td>
+            <td> G2 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/12015"> 가장 긴 증가하는 부분 수열2 </a> </td>
+        </tr>
+        <tr>
+            <td> 13459 </td>
+            <td> G1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/13459"> 구슬 탈출 </a> </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <thead>
+        <tr>
+            <th> Date </th>
+            <th> Week </th>
+            <th> PNo. </th>
+            <th> Tier </th>
+            <th> PName </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5> 2022.12.24 </td>
+            <td rowspan=5> week18 </td>
+            <td> 1644 </td>
+            <td> G3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1644"> 소수의 연속합 </a> </td>
+        </tr>
+        <tr>
+            <td> 16928 </td>
+            <td> G4 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/16928"> 뱀과 사다리 게임  </a> </td>
+        </tr>
+        <tr>
+            <td> 13459 </td>
+            <td> G1 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/13459"> 구슬탈출 </a> </td>
+        </tr>
+        <tr>
+            <td> 1240 </td>
+            <td> G5 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/1240"> 노드 사이의 거리 </a> </td>
+        </tr>
+        <tr>
+            <td> 2512 </td>
+            <td> S3 </td>
+            <td> <a target='_blank' href="https://www.acmicpc.net/problem/2512"> 예산 </a> </td>
         </tr>
     </tbody>
 </table>
