@@ -1,28 +1,29 @@
 import sys
-from collections import deque
+sys.setrecursionlimit(10 ** 8)
+input = sys.stdin.readline
 
-dx = [-1,1,0,0]
-dy = [0,0,-1,1]
+def dfs(sx, sy):
+    # 도착 지점에 도달하면 1(한 가지 경우의 수)를 리턴
+    if sx == m-1 and sy == n-1:
+        return 1
 
-def bfs():
-    queue = deque([[0,0]])
-
-    while queue:
-        y,x = queue.popleft()
-
-        if y == n-1 and x == m-1:
-            result.append(1)
-
-        for i in range(4):
-            ky,kx = y+dy[i], x+dx[i]
-            if ky<0 or kx<0 or ky>=n or kx>=m or board[ky][kx] >= board[y][x]:
-                continue
-
-            queue.append([ky,kx])
+    # 이미 방문한 적이 있다면 그 위치에서 출발하는 경우의 수를 리턴
+    if dp[sx][sy] != -1:
+        return dp[sx][sy]
+    
+    ways = 0
+    for i in range(4):
+        nx, ny = sx + dx[i], sy + dy[i]
+        if 0 <= nx < m and 0 <= ny < n and graph[sx][sy] > graph[nx][ny]:
+            ways += dfs(nx, ny)
+    
+    dp[sx][sy] = ways
+    return dp[sx][sy]
 
 
-n,m = map(int,input().split())
-board = [list(map(int,sys.stdin.readline().split())) for _ in range(n)]
-result = []
-bfs()
-print(len(result))
+m, n = map(int, input().split())
+graph = [list(map(int, input().split())) for _ in range(m)]
+dp = [[-1] * n for _ in range(m)]
+dx, dy = [1,-1,0,0], [0,0,1,-1]
+
+print(dfs(0,0))
