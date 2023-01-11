@@ -1,0 +1,5 @@
+n = int(input())
+before = list(map(int,input()))
+after = list(map(int,input()))
+print(before)
+print(after)

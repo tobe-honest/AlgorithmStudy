@@ -44,7 +44,6 @@ def solution(board,depth):
 
 if __name__ == "__main__":
     n,m = map(int,sys.stdin.readline().split())
-
     board, cctv = [], []
     for i in range(n):
         line = list(map(int,sys.stdin.readline().split()))

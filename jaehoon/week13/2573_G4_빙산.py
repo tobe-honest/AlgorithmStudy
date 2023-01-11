@@ -58,6 +58,7 @@ if __name__ == "__main__":
         for j in range(m):
             if line[j] > 0:
                 ice.append((i,j))
+                
     while True:
         cnt = count_piece(board,n,m,ice)
         if cnt == 0:
